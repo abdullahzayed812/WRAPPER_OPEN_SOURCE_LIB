@@ -1,3 +1,18 @@
+/*
+  In real life, we may use some open source code
+  But what if we later discovered it is so buggy and need replacement?
+  Or team stopped maintenance and we need more features?
+
+  It is better in these conditions to WRAP them so that your code
+  depends on the wrapper
+  Once u decided to change the wrapper, everything else in ur code did not
+  change
+
+  It is important to design code that changes very little
+
+  Reading: https://stackoverflow.com/questions/889160/what-is-a-wrapper-class
+*/
+
 #include <cctype>
 #include <iostream>
 #include <utility>
